@@ -67,12 +67,12 @@ namespace ariel{
     std::string Notebook::show(int page){
         return "Hi";
     }
-    std::string newLine(){
-        std::string ans = "";
-        for(int i=0;i<ROW_LENGTH;i++){
-            ans += "_";
-        }
-        return ans;
-    }
+//    std::string newLine(){
+//        std::string ans = "";
+//        for(int i=0;i<ROW_LENGTH;i++){
+//            ans += "_";
+//        }
+//        return ans;
+//    }
 }
 

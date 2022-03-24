@@ -26,7 +26,7 @@ TEST_CASE("Good harder cases") {
             Notebook n;
             n.write(0,0,0,Direction::Horizontal,"aaaa");
             n.write(0,0,5,Direction::Horizontal,"bbbb");
-            n.write(0,0,3,Direction::Horizontal,"ccc");
+            n.write(0,1,3,Direction::Horizontal,"ccc");
             CHECK(n.read(0,0,3,Direction::Horizontal,3) == "a_b");
             CHECK(n.read(0,0,4,Direction::Vertical,2) == "_c");
             n.erase(0,0,4,Direction::Horizontal,1);
